@@ -35,9 +35,6 @@ if __name__ == '__main__':
         ydl.download(read_in_from_txt())
         mp4_to_mp3()
     else:
-        print("Enter list of urls to download")
-        #mp4_to_mp3()
-        read_in_from_txt()
         exit(0)
 
 
